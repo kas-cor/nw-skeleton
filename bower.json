@@ -1,0 +1,12 @@
+{
+  "name": "AppName",
+  "version": "1.0.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "AppName",
+  "version": "1.0.0",
+  "description": "App description",
+  "keywords": [
+    "app",
+    "keywords"
+  ],
+  "window": {
+    "icon": "img/icon.png",
+    "toolbar": false,
+    "show": false,
+    "width": 800,
+    "height": 500,
+    "resizable": false
+  },
+  "platformOverrides": {
+    "win": {
+      "window": {
+        "frame": true,
+        "toolbar": false
+      }
+    },
+    "osx": {
+      "window": {
+        "frame": true,
+        "toolbar": false
+      }
+    },
+    "linux": {
+      "window": {
+        "frame": true,
+        "toolbar": false
+      }
+    }
+  },
+  "main": "index.html",
+  "author": "kas-cor",
+  "contributors": [],
+  "dependencies": {
+    "nw": "^0.12.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "^0.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-nw-builder": "^1.3.1",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.8.0",
+    "nw-builder": "^2.1.0",
+    "run-sequence": "^1.1.5"
+  },
+  "scripts": {
+    "start": "node start.js"
+  }
+}
